@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "999428380903",
+    "firebase_url": "https://koreachessok-default-rtdb.firebaseio.com",
+    "project_id": "koreachessok",
+    "storage_bucket": "koreachessok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999428380903:android:f04bfa6ee15d049422ea42",
+        "android_client_info": {
+          "package_name": "com.example.koreachessok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999428380903-hcarin0iuqltfi91151gqflbf47i5f1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.koreachessok",
+            "certificate_hash": "fba2df11ff97e004ad336a5389abb14a64b8c511"
+          }
+        },
+        {
+          "client_id": "999428380903-rhle8igio7kit4p7j9q5pfoujgsv4sce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMUQka8lTRnJD-Z0dPapYSIkmT1JxvKpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999428380903-rhle8igio7kit4p7j9q5pfoujgsv4sce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

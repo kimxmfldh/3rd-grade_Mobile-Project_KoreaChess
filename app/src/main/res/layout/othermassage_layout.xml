@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/otherMassageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OtherMassageDate"
+        android:layout_alignBottom="@+id/OtherMassage"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toEndOf="@+id/OtherMassage"
+        android:layout_toRightOf="@+id/OtherMassage"
+        android:text="11.35" />
+
+    <TextView
+        android:id="@+id/tv_marginBox2"
+        android:layout_width="15dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/OtherMassageNickName"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/tv_marginBox2"
+        android:layout_toRightOf="@+id/tv_marginBox2"
+        android:text="nickName" />
+
+    <TextView
+        android:id="@+id/OtherMassage"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/OtherMassageNickName"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/tv_marginBox2"
+        android:layout_toRightOf="@+id/tv_marginBox2"
+        android:background="@drawable/ohtermassage"
+        android:gravity="center|left"
+        android:text="           hello"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/OtherMassageDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/OtherMassage"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/OtherMassage"
+        android:layout_toRightOf="@+id/OtherMassage"
+        android:text="2020.11.02" />
+</RelativeLayout>

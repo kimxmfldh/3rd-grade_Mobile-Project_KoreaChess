@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_marginBox"
+        android:layout_width="15dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/myMassageNickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@+id/tv_marginBox"
+        android:layout_toLeftOf="@+id/tv_marginBox"
+        android:text="nickName" />
+
+    <TextView
+        android:id="@+id/myMassge"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/myMassageNickName"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@+id/tv_marginBox"
+        android:layout_toLeftOf="@+id/tv_marginBox"
+        android:background="@drawable/mymassage"
+        android:gravity="center|right"
+        android:text="hello           "
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/myMassageDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/myMassge"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@+id/myMassge"
+        android:layout_toLeftOf="@+id/myMassge"
+        android:text="2020.11.02" />
+
+    <TextView
+        android:id="@+id/myMassageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myMassageDate"
+        android:layout_alignBottom="@+id/myMassge"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toStartOf="@+id/myMassge"
+        android:layout_toLeftOf="@+id/myMassge"
+        android:text="11.35" />
+</RelativeLayout>

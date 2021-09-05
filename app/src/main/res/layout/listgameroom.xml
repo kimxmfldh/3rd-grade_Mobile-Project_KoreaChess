@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_marginBox"
+        android:layout_width="22dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/gameRoom"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/tv_marginBox"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/tv_marginBox"
+        android:layout_toRightOf="@+id/tv_marginBox"
+        android:background="#F2CD96"
+        android:textColor="#F9F9F9"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>
